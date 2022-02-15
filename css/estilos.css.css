@@ -33,8 +33,10 @@ img {
 /* ESTILOS DEL MENU */
 
 .main--nav {
-    /* opacity: 0;
-    visibility: hidden; */
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0,5 ;
+    z-index: 999999;
 }
 
 .menu {
@@ -46,10 +48,6 @@ img {
     list-style: none;
     padding: 10px;
     margin: 0;
-    z-index: 999999;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0,5;
 }
 
 .menu__item {
@@ -75,7 +73,7 @@ img {
 
 .main-header__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items:center;
     
 }
@@ -101,16 +99,17 @@ img {
     width: 100px;
     text-align: center;
     background-color: #e6d7d791;
-    width: 20%;
 
 }
 
 .main-header__input {
     background-color: #e6d7d791;
     border: solid 3px #ccc;
+    color: #151515;
     display: block;
     padding: 5px;
     width: 40%;
+    text-align: center;
 }
 
 .main {
