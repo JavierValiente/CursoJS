@@ -123,6 +123,19 @@ img {
     margin-top: 50px;
 }
 
+.editor__title {
+    color: white;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-weight: bolder;
+    font-size: large;
+    border: solid 2px #ff4e00;
+}
+
 .editor__item {
     height: 100%;
     position: relative;
