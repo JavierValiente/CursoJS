@@ -35,11 +35,13 @@ img {
 .main-header__container {
     display: flex;
     justify-content: space-between;
-    align-items:center
+    align-items:center;
+    
 }
 
 .main-heder__txt {
     margin: 0;
+    padding: 0 20px;
 }
 .icon-menu {
     font-size: 1.5em;
@@ -143,7 +145,7 @@ img {
     bottom: -190px;
     right: -150px;
     color: white;
-    padding: 10px 30px 100px 10px;
+    padding: 10px 30px 60px 10px;
     text-align: center;
     font-weight: bold;
     transition: all 0.5s;
