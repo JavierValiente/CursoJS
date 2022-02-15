@@ -19,10 +19,6 @@ img {
     margin-bottom: 20px;
 }
 
-.main-header .container { 
-    padding: 0 20px
-}
-
 .main-heder__title {
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -53,11 +49,14 @@ img {
 }
 
 .main-header__btn {
+    text-decoration:none !important;
     color: black;
     border: solid 3px #ccc;
     display: block;
     padding: 5px;
-    text-decoration:none;
+    width: 100px;
+    text-align: center;
+
 }
 
 .main-header__input {
@@ -187,4 +186,8 @@ img {
 .footer__txt {
     color: #555;
     padding: 5px 0;
+}
+
+.copy {
+    padding-top: 20px;
 }
