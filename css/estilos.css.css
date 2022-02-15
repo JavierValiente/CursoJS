@@ -29,9 +29,50 @@ img {
     margin: 10px 0;
     color: #615f5f;
 }
+
+/* ESTILOS DEL MENU */
+
 .main--nav {
-    display: none;
+    /* opacity: 0;
+    visibility: hidden; */
 }
+
+.menu {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    background: #212121;
+    width: 100%;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    z-index: 999999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0,5;
+}
+
+.menu__item {
+    padding: 5px;
+    text-align: center;
+    width: 150px;
+    margin: auto;
+}
+
+.menu__link {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: block;
+}
+
+.mostrar {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ESTILOS HEADER */
+
 .main-header__container {
     display: flex;
     justify-content: space-between;
@@ -60,6 +101,7 @@ img {
     width: 100px;
     text-align: center;
     background-color: #e6d7d791;
+    width: 20%;
 
 }
 
@@ -68,6 +110,7 @@ img {
     border: solid 3px #ccc;
     display: block;
     padding: 5px;
+    width: 40%;
 }
 
 .main {
@@ -210,4 +253,30 @@ img {
     display: block;
     margin: 5px 0 20px 0; 
     border: solid 1px#555;
+}
+
+/* ESTILOS PARA TABLET */
+
+@media (min-width: 768px){
+    .product_img {
+        height: 300px;
+    }
+    .editor__title {
+        font-size: x-large;
+    }
+    .main-heder__title {
+        font-size:4em;
+    }
+}
+
+@media (min-width: 1024px){
+    .product_img {
+        height: 400px;
+    }
+    .editor__title {
+        font-size: 2em;
+    }
+    .main-heder__title {
+        font-size:4em;
+    }
 }
