@@ -154,5 +154,5 @@ img {
 .editor__item:hover .editor__circle {
     transform: scale(1.2);
     bottom: -115px;
-    right: -40px;
+    right: -10px;
 }
