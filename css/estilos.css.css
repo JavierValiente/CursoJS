@@ -30,6 +30,13 @@ img {
     color: #615f5f;
 }
 
+.main-header__container {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    
+}
+
 /* ESTILOS DEL MENU */
 
 .main--nav {
@@ -53,15 +60,21 @@ img {
 .menu__item {
     padding: 5px;
     text-align: center;
-    width: 150px;
+    width: 90%;
     margin: auto;
 }
 
 .menu__link {
+    padding: 10px;
     color: white;
     text-decoration: none;
     position: relative;
     display: block;
+}
+
+.menu__link:hover {
+    background-color: white;
+    color: #212121;
 }
 
 .mostrar {
@@ -70,13 +83,6 @@ img {
 }
 
 /* ESTILOS HEADER */
-
-.main-header__container {
-    display: flex;
-    justify-content: space-around;
-    align-items:center;
-    
-}
 
 .main-heder__txt {
     margin: 0;
@@ -88,6 +94,7 @@ img {
     display: block;
     padding: 10px 10px;
     cursor: pointer;
+    margin-left: 65px;
 }
 
 .main-header__btn {
